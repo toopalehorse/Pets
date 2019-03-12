@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>Pets</title>
   <link rel="stylesheet" href="style/normalize.css">
-  <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700|Roboto:400,700&amp;subset=cyrillic" rel="stylesheet">
   <link rel="stylesheet" href="style/style.css">
 </head>
 
@@ -15,7 +14,7 @@
         <div class="logo__wrap">
           <img src="images/epixx_pets_logo.png" alt="pets" class="logo">
         </div>
-        <div class="main-menu__wrap">
+
           <nav class="main-menu">
             <ul class="main-menu__list">
               <li class="main-menu__item"> 
@@ -39,7 +38,6 @@
         <div class="phone-header">
           <a href="tel:+79252569877" class="phone-header__link">+7 (925) 256 98 77</a>
         </div>
-      </div>
       </div>
     </header>
   
@@ -139,21 +137,18 @@
     </section>
 
     <section class="reviews">
-      <!-- <div class="reviews__total-wrap"> -->
         <h2 class="reviews__title">Отзывы хозяев</h2>
         <div class="reviews__wrap">
           <div class="reviews__content">
-            <img class="reviews__content-img"src="images/“.png" alt="кавычки">
             <h3 class="reviews__content-title">Татьяна Зверева</h3>
             <time datetime="2018-02-27"class="reviews__content-time">27.02.2018</time>
             <blockquote class="reviews__content-text">Хочу выразить большую благодарность Вам за это чудо - малыша, который появился у нас в семье. Деликатный, милый, ласковый и нежный белоснежный Уник, в которого я влюбилась с первого взгляда, увидев его фотографию на сайте Вашего питомника. Очень умный малыш!</blockquote>
           </div>
           <div class="reviews__img-wrap">
             <img src="images/photo_review.jpg" alt="фото отзыва" class="reviews__img">
-            <p class="reviews__more"> Больше отзывов можно найти у нас в <a href="#" class="reviews__link">группе ВК</a></p>
           </div>
+          <p class="reviews__more"> Больше отзывов можно найти у нас в <a href="#" class="reviews__link">группе ВК</a></p>
         </div>
-      <!-- </div> -->
     </section>
     <section class="pets">
 
@@ -164,14 +159,11 @@
           <p class="pets__text">Мы ведем активный блог про наших животных в социальных сетях - присоединяйтесь к нам. Полезные материалы про обучение, дрессировку, питание.</p>
           
           <div class="pets-network">
-            <a href="https://vk.com/epixx_pets" class="pets-network__link pets-network__link--pets">
-              <i class="icon pets-network__vk"></i>
+            <a href="https://vk.com/epixx_pets" class="network__link network__link--vk-pets">
             </a>
-            <a href="https://vk.com/epixx_pets" class="pets-network__link pets-network__link--pets">
-              <i class="icon pets-network__facebook"></i>
+            <a href="https://vk.com/epixx_pets" class="network__link network__link--fb-pets">
             </a>
-            <a href="https://vk.com/epixx_pets" class="pets-network__link pets-network__link--pets">
-              <i class="icon pets-network__inst"></i>
+            <a href="https://vk.com/epixx_pets" class="network__link network__link--inst-pets">
             </a>
           </div>
         </div>
@@ -179,13 +171,13 @@
         <div class="pets__post-wrap">
           <article class="pets-post">
             <img class="pets-post__img" src="images/blog_list_img_1.jpg" alt="">
-            <p class="pets-post__text">Правильный рацион для взрослого пса</p>
-            <a class="pets-post__link"href="https://vk.com/epixx_pets">Читать статью</a>
+            <h3 class="pets-post__text">Правильный рацион для взрослого пса</h3>
+            <a class="pets-post__link"href="https://vk.com/epixx_pets">Читать статью </a>
           </article>
 
           <article class="pets-post">
             <img class="pets-post__img" src="images/blog_list_img_2.jpg" alt="">
-            <p class="pets-post__text">Бывает ли собачья депрессия? </p>
+            <h3 class="pets-post__text">Бывает ли собачья депрессия? </h3>
             <a class="pets-post__link"href="https://vk.com/epixx_pets">Читать статью</a>
           </article>
         </div>
@@ -195,30 +187,34 @@
     <section class="contacts">
       <div class="contacts-wrap">
         <h2 class="contacts-title">Контакты</h2>
+        <div class="contacts-item__wrap">
         <div class="contacts-item">
           <h3 class="contacts-item__title">адрес</h3>
-          <p class="contacts-item__text">г.Санкт-Петербург, ул.Кирочная 61</p>
+          <address class="contacts-item__text contacts-item__text-contacts">г. Санкт-Петербург, ул. Кирочная 61</address>
         </div>
         <div class="contacts-item">
           <h3 class="contacts-item__title">режим работы</h3>
-          <p class="contacts-item__text">Каждый день с 10:00 до 22:00</p>
+          <p class="contacts-item__text contacts-item__text-contacts">Каждый день с 10:00 до 22:00</p>
         </div>
         <div class="contacts-item">
           <h3 class="contacts-item__title">e-mail</h3>
-          <p class="contacts-item__text">petshelp@pets.ru</p>
+          <p class="contacts-item__text contacts-item__text-contacts"><a href="mailto:petshelp@pets.ru" class="contacts-item__mail"></a>petshelp@pets.ru</p>
         </div>
         <div class="contacts-item">
           <h3 class="contacts-item__title">телефон</h3>
-          <p class="contacts-item__text">+7 (925) 256 98 77</p>
-          <p class="contacts-item__text">Мы принимаем звонки с 10:00 до 21:00</p>
+          <p class="contacts-item__text contacts-item__text-contacts"><a href="tel:+7 (925) 256 98 77" class="contacts-item__tel">+7 (925) 256 98 77</a></p>
+          <p class="contacts-item__text contacts-item__text-contacts">Мы принимаем звонки с 10:00 до 21:00</p>
+        </div>
         </div>
       </div>
     </section>
   </main>
 
   <footer class="footer">
+
     <div class="footer__wrap">
-      <nav class="footer-menu">
+
+      <div class="footer-menu">
         <ul class="footer-menu-list">
           <li class="footer-menu__item">
             <a href="#" class="footer-menu__link ">О питомнике</a>
@@ -236,14 +232,17 @@
             <a href="#" class="footer-menu__link ">Контакты</a>
           </li>
         </ul>
+      </div>
+
       <div class="footer-network">
-        <a href="https://vk.com/epixx_pets" class="footer-network__link footer-network__link--footer">
+        <a href="https://vk.com/epixx_pets" class="network__link network__link--vk-footer">
         </a>
-        <a href="https://vk.com/epixx_pets" class="footer-network__link footer-network__link--footer">
+        <a href="https://vk.com/epixx_pets" class="network__link network__link--fb-footer">
         </a>
-        <a href="https://vk.com/epixx_pets" class="footer-network__link footer-network__link--footer">
+        <a href="https://vk.com/epixx_pets" class="network__link network__link--inst-footer">
         </a>
       </div>
+
     </div>
   </footer>
 </div>
