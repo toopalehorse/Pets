@@ -117,6 +117,7 @@ a {
   color: #510fad;
   display: flex;
   align-items: center;
+  margin-right: 25px;
 }
 
 .phone-header__link {
